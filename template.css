@@ -1,0 +1,50 @@
+.topnav a {
+	float: right;
+	display: block; /* Como a propriedade é block e os elementos aparecem inline? */
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; 
+	font-size: 17px;
+
+}
+.main {
+	background-image: url("./desk.jpg");
+	width: 1400px;
+	height: 640px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	opacity: 0.95;
+
+}
+h1{
+	color: white;
+ 	position: relative;
+ 	top: 50%;
+ 	left: 12.5%;
+    transform: translateY(-50%);
+    font-size: 60px;
+}
+h2{
+	text-align: center;
+}
+.try{
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-gap: 25px;
+	padding-left: 75px;
+}
+.do1{
+	text-align: center;
+	height: 200px;
+
+}
+.do2{
+	text-align: center;
+	
+}
+.do3{
+	text-align: center;
+	
+}
